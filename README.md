@@ -103,10 +103,24 @@ Ketika kita lihat lebih detail isi dari packet tersebut maka kita akan mendapatk
 ## Soal No 2
 
 ### Deskripsi
+Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
 
 ### Solusi
+- Search terlebih dahulu ip yang digunakan pada portal praktikum jarkom yaitu "10.21.78.111"
+- Setelah itu klik kanan pada paket yang dituju dan klik follow
+- lalu klik http stream
+- setelah itu akan terlihat server name yaitu “gunicorn”
+
+![Gambar Hasil FTp](assets/2.1.png)
+
+**Tampilan Http Stream** :
+
+![Gambar Hasil FTp](assets/2.2.png)
 
 ### Hasil
+![Gambar Hasil FTp](assets/2.3.png)
+
+Web server yang digunakan pada portal praktikum jarkom yaitu "gunicorn"
 
 ## Soal No 3
 
