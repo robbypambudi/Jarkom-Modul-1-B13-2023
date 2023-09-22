@@ -111,14 +111,14 @@ Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
 - lalu klik http stream
 - setelah itu akan terlihat server name yaitu “gunicorn”
 
-![Gambar Hasil FTp](assets/2.1.png)
+![Gambar Hasil 2](assets/2.1.png)
 
 **Tampilan Http Stream** :
 
-![Gambar Hasil FTp](assets/2.2.png)
+![Gambar Hasil 2](assets/2.2.png)
 
 ### Hasil
-![Gambar Hasil FTp](assets/2.3.png)
+![Gambar Hasil 2](assets/2.3.png)
 
 Web server yang digunakan pada portal praktikum jarkom yaitu "gunicorn"
 
@@ -212,12 +212,22 @@ Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggema
 ## Soal No 7
 
 ### Deskripsi
+Berapa jumlah packet yang menuju IP 184.87.193.88?
 
 ### Solusi
-
+- langkah pertama buka file soal6-9.pcapng yang sudah di download menggunakan wireshark
+- buka statisktik di menu atas
+- pilih conversation
+- lalu cek di ipv4 pada ip yang dituju yaitu “IP 184.87.193.88”
+- lalu lihat pada kolom paket yang diterima maupun yang dikirim
+  
+![Gambar Hasil 7](assets/7.1.png)
 ### Hasil
+![Gambar Hasil 7](assets/7.2.png)
 
+Terlihat pada ip tersebut mengirim dan menerima masing masing 6 paeket
 ## Soal No 8
+![Gambar Hasil Soal 8](assets/8.png)
 
 ### Deskripsi
 
