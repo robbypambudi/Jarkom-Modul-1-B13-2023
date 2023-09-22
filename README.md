@@ -267,9 +267,7 @@ Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari 
 Dimana kueri filternya yaitu "ip.src == 10.51.40.1 && ip.dst != 10.39.55.34"
 
 ## Soal No 10
-![Gambar Hasil 9](assets/9.2.png)
 
-Dimana kueri filternya yaitu "ip.src == 10.51.40.1 && ip.dst != 10.39.55.34"
 ### Deskripsi
 
 Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet!
