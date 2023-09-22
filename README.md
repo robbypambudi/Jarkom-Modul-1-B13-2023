@@ -253,11 +253,23 @@ Didapatkan jumlah paket yang menuju ke port 80 adalah : **70**
 ## Soal No 9
 
 ### Deskripsi
+Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!
 
 ### Solusi
+- lakukan pencarian alamat yang di search dengan ip.src
+- lalu batasi pada alamat destinasi yang dituju dengan != ip.dsc
+
+![Gambar Hasil 9](assets/9.1.png)
+
+### Hasil
+![Gambar Hasil 9](assets/9.2.png)
+
+Dimana kueri filternya yaitu "ip.src == 10.51.40.1 && ip.dst != 10.39.55.34"
 
 ## Soal No 10
+![Gambar Hasil 9](assets/9.2.png)
 
+Dimana kueri filternya yaitu "ip.src == 10.51.40.1 && ip.dst != 10.39.55.34"
 ### Deskripsi
 
 Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet!
